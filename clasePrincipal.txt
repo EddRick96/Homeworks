@@ -1,0 +1,22 @@
+package persona;
+
+/**
+ *
+ * @author ESFOT
+ */
+public class Principal {
+    public static void main(String[] args){
+        Persona p2 = new Persona();
+        Persona p3 = p2;
+        
+        p2.setNombre("Erick");
+        p3.setApellido("Bolanos");
+        
+        System.out.println("P2 nombre " + p2.getNombre());
+        System.out.println("P3 nombre " + p3.getNombre());
+        
+        System.out.println("P2 apellido " + p2.getApellido());
+        System.out.println("P3 apellido " + p3.getApellido());
+         
+    }
+}
