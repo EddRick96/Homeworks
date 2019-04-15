@@ -1,0 +1,15 @@
+.title{
+	background-color: #cccccc;
+	color: #ff0000;
+}
+label{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.input-wrapper{
+	/*margin-left: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;*/
+	margin: 10px 50px ;
+}
