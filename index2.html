@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro a CSS(Cascade Style Sheets)</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="title">
+		<h1>Formulario</h1>
+	</div>
+	<hr>
+	<div>
+		<form action="#" method="post">
+		<div class="input-wrapper">
+			<label for="firstname">Nombre</label>
+			<input type="text" name="firstname" id="firstname" value="Nombre">
+		</div>
+
+		<div class="input-wrapper">
+			<label for="lastname">Apellido</label>
+			<input type="text" name="lastname" id="lastname" placeholder="Apellido">
+		</div>
+
+		<div class="input-wrapper">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" value="erickdbg@hotmail.com" readonly="">
+		</div>
+			
+		<div class="input-wrapper">
+			<label for="phone">Telèfono</label>
+			<input type="tel" name="phone" id="phone">
+		</div>
+
+		<div class="input-wrapper">
+			<label for="age">Edad</label>
+			<input type="number" name="phone" id="age">
+		</div>
+
+		<div class="input-wrapper">
+			<label for="password">Clave</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<div class="input-wrapper">
+			<label for="dob">Fecha de Nacimiento</label>
+			<input type="date" name="dob" id="dob">
+		</div>
+		<div class="input-wrapper">
+			<label for="interest">Intereses</label>
+			<textarea rows="8" cols="50">Texto predefinido</textarea>
+		</div>
+		<div class="input-wrapper">
+			<label for="country">Paìs</label>
+			<select name="country" id="country">
+				<option value="">Seleccione una opciòn...</option>
+				<option value="ec">Ecuador</option>
+				<option value="co">Colombia</option>
+
+				<option value="es">España</option>
+				<option value="pe">Perù</option>
+				<option value="ch">Chile</option>
+			</select>
+		</div>
+		<div>
+			
+			<strong>Seleccione sus temas de interès</strong>
+		</div>
+		<div>
+			<div class="input-wrapper">
+				<input type="checkbox" name="topics[]" id="i1" value="php">
+				<label for="i1">PHP</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="checkbox" name="topics[]" id="i2" value="js">
+				<label for="i2">Javascript</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="checkbox" name="topics[]" id="i3" value="css">
+				<label for="i3">CSS</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="checkbox" name="topics[]" id="i4" value="html">
+				<label for="i4">HTML</label>
+			</div>
+		</div>
+
+		<div>
+			<strong>¿Desea recibir noticias de la pàgina?</strong>
+		</div>
+
+		<div class="input-wrapper">
+			<input type="radio" name="news" id="news1" value="si">
+			<label for="news1">Si</label>
+			<input type="radio" name="news" id="news2" value="no">
+			<label for="news2">No</label>
+			<input type="radio" name="news" id="news3" value="quizas">
+			<label for="news3">Quizàs</label>
+		</div>
+		<hr>
+		<div class="input-wrapper">
+			<input type="checkbox" name="accept" id="accept">
+			<label>Acepto los tèrminos y condiciones de la pàgina</label>
+		</div>
+		<div class="input-wrapper">
+			<input type="range" name="range"id="range">
+		</div>
+		<div class="input-wrapper">
+			<label for="cv">Sube tu hoja de vida</label>
+			<input type="file" accept="aplication/pdf" name="cv" id="cv">
+		</div>
+		<div class="input-wrapper">
+			<input type="submit" name="send" id="send" value="Enviar">
+			<button>Borrar</button>
+		</div>
+
+		</form>
+	</div>
+	<hr>
+	<div>
+		<table cellspacing="0" cellpadding="0" border="3">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Edad</th>
+					<th>Telèfono</th>
+					<th>Intereses</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="2">Marìa Martinez</td>
+					<td>31</td>
+					<td>0987584234</td>
+					<td>
+						<table cellpadding="5">
+							<tr>
+								<td>HTML</td>
+								
+							</tr>
+							<tr>
+								<td>CSS</td>
+							</tr>
+							<tr>
+								<td>C#</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">David Castillo</td>
+					<td>26</td>
+					<td>0965684334</td>
+					<td>
+						<table>
+							<tr>
+								<td>JAVA</td>
+								
+							</tr>
+							<tr>
+								<td>C++</td>
+							</tr>
+							<tr>
+								<td>Python</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div>
+		<pre>
+			Hola
+		</pre>
+		<p>
+			var x = "Hola";
+			<br>
+			document.write(x);
+		</p>
+
+		<code>
+			var x = "Hola";
+			<br>
+			document.write(x);
+		</code>
+		<blockquote>
+			Esta es una cita de texto
+		</blockquote>
+	</div>	
+</body>
+</html>
